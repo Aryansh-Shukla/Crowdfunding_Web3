@@ -1,0 +1,14 @@
+# Ignore dependencies and test files
+.deps/
+remix-tests/
+
+# Ignore state and build artifacts
+.states/
+artifacts/
+
+# Ignore specific files
+.prettierrc.json
+
+# Ignore all JSON metadata and build info files
+*.json
+!CrowdFunding.sol  # Allow only the Solidity contract file to be committed
